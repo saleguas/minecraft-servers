@@ -556,3 +556,133 @@ chestData:
   - null
   - null
   chestLocation: world;196.0;-20.0;108.0
+- ==: ChestData
+  playerUUID: 45118bf1-56ff-416e-b0cc-26ddcd93325c
+  holographicTimer: em_shadow_of_the_binder_of_worlds;-42.5;62.799999952316284;2.5
+  worldName: em_shadow_of_the_binder_of_worlds
+  as_timer_id: 2caaceeb-6356-4c4a-96c1-8b4341e23020
+  playerName: 5xw
+  isInfinity: false
+  as_owner_id: 147612de-c331-4fcd-8ecc-67064ba90fd9
+  chestDate: 2023-03-13T03:02:30.859Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Slimefun
+        Guide "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(Chest
+        GUI)"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Right
+        Click "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Browse
+        Items"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Shift
+        + Right Click "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Open
+        Settings / Credits"}],"text":""}'
+      PublicBukkitValues:
+        slimefun:slimefun_guide_mode: SURVIVAL_MODE
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: em_shadow_of_the_binder_of_worlds;-43.0;62.0;2.0
+- ==: ChestData
+  playerUUID: 45118bf1-56ff-416e-b0cc-26ddcd93325c
+  holographicTimer: em_fireworks;-11.5;81.79999995231628;-2.5
+  worldName: em_fireworks
+  as_timer_id: 4f5c2ea7-998c-4e44-bb0c-d5df1bd06b50
+  playerName: 5xw
+  isInfinity: false
+  as_owner_id: 1f967f43-e2a1-4315-b64d-38fdb7fc3673
+  chestDate: 2023-03-13T03:13:30.377Z
+  inventory:
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_swiftness
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: em_fireworks;-12.0;81.0;-3.0

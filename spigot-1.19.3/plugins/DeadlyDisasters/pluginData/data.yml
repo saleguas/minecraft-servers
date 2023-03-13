@@ -5,7 +5,7 @@ data:
   notify: false
   firstStart: false
   lang: 0
-  catalogFetchCooldown: 143412
+  catalogFetchCooldown: 142690
   currentConfig: DEFAULT
   favored: 'null'
   disliked: 'null'
@@ -92,17 +92,24 @@ timers:
   9b712dbb-02b4-452d-b45c-e87f6cc9a112:
     45118bf1-56ff-416e-b0cc-26ddcd93325c: 151
   7f48cfec-595a-45c6-913a-f9e4997815af:
-    45118bf1-56ff-416e-b0cc-26ddcd93325c: 113
+    45118bf1-56ff-416e-b0cc-26ddcd93325c: 91
   9957079b-8c5b-4743-9d73-f2397b096caf:
     45118bf1-56ff-416e-b0cc-26ddcd93325c: 137
   6b169f4f-f81f-4be3-abb1-9d0e96e85a4b:
     45118bf1-56ff-416e-b0cc-26ddcd93325c: 176
   b25d52db-b404-48b7-ad77-965f5e206ddc:
     45118bf1-56ff-416e-b0cc-26ddcd93325c: 148
-  a1ada6d2-3606-4a8b-900f-fb54db9bec9d: {}
-  b32f5144-da37-48a4-bebe-bdc26d026e45: {}
-  3c4e6ea3-6e79-4251-a43f-271d2a3abff4: {}
-  6f8ba14e-af13-479c-966e-4571b529b9f9: {}
-  cab504ed-bbb1-4ba8-8502-b0f7d321bf01: {}
-  68ddeba2-c296-4548-bd97-d46a161c46d2: {}
-  75ec7d75-6027-44df-a156-540cd7346862: {}
+  a1ada6d2-3606-4a8b-900f-fb54db9bec9d:
+    45118bf1-56ff-416e-b0cc-26ddcd93325c: 145
+  b32f5144-da37-48a4-bebe-bdc26d026e45:
+    45118bf1-56ff-416e-b0cc-26ddcd93325c: 139
+  3c4e6ea3-6e79-4251-a43f-271d2a3abff4:
+    45118bf1-56ff-416e-b0cc-26ddcd93325c: 172
+  6f8ba14e-af13-479c-966e-4571b529b9f9:
+    45118bf1-56ff-416e-b0cc-26ddcd93325c: 150
+  cab504ed-bbb1-4ba8-8502-b0f7d321bf01:
+    45118bf1-56ff-416e-b0cc-26ddcd93325c: 178
+  68ddeba2-c296-4548-bd97-d46a161c46d2:
+    45118bf1-56ff-416e-b0cc-26ddcd93325c: 148
+  75ec7d75-6027-44df-a156-540cd7346862:
+    45118bf1-56ff-416e-b0cc-26ddcd93325c: 136

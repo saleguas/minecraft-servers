@@ -145,6 +145,8 @@ world-settings:
     enable-zombie-pigmen-portal-spawns: true
   worldeditregentempworld:
     verbose: false
+  faweregentempworld:
+    verbose: false
 config-version: 12
 stats:
   disable-saving: false
