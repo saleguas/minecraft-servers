@@ -1,0 +1,7 @@
+isEnabled: true
+structureType:
+- UNDERGROUND_SHALLOW
+- UNDERGROUND_DEEP
+validBiomes:
+- LUSH_CAVES
+treasureFilename: treasure_overworld_underground.yml

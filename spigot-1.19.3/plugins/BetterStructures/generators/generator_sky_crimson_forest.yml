@@ -1,0 +1,6 @@
+isEnabled: true
+structureType:
+- SKY
+validBiomes:
+- CRIMSON_FOREST
+treasureFilename: treasure_nether.yml
