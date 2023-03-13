@@ -132,7 +132,7 @@ world_the_end:
   whitelist: []
 em_adventurers_guild:
   general:
-    natural_disasters: true
+    natural_disasters: false
     min_timer: 90
     level_six: true
     event_broadcast: true
@@ -176,7 +176,7 @@ em_adventurers_guild:
   whitelist: []
 em_fireworks:
   general:
-    natural_disasters: true
+    natural_disasters: false
     min_timer: 90
     level_six: true
     event_broadcast: true
@@ -220,7 +220,7 @@ em_fireworks:
   whitelist: []
 em_hallosseum:
   general:
-    natural_disasters: true
+    natural_disasters: false
     min_timer: 90
     level_six: true
     event_broadcast: true
@@ -264,7 +264,7 @@ em_hallosseum:
   whitelist: []
 em_sewer_maze:
   general:
-    natural_disasters: true
+    natural_disasters: false
     min_timer: 90
     level_six: true
     event_broadcast: true
@@ -308,7 +308,7 @@ em_sewer_maze:
   whitelist: []
 em_north_pole:
   general:
-    natural_disasters: true
+    natural_disasters: false
     min_timer: 90
     level_six: true
     event_broadcast: true
@@ -352,7 +352,7 @@ em_north_pole:
   whitelist: []
 em_knight_castle:
   general:
-    natural_disasters: true
+    natural_disasters: false
     min_timer: 90
     level_six: true
     event_broadcast: true
@@ -396,7 +396,7 @@ em_knight_castle:
   whitelist: []
 em_steamworks_lair:
   general:
-    natural_disasters: true
+    natural_disasters: false
     min_timer: 90
     level_six: true
     event_broadcast: true
@@ -440,7 +440,7 @@ em_steamworks_lair:
   whitelist: []
 em_shadow_of_the_binder_of_worlds:
   general:
-    natural_disasters: true
+    natural_disasters: false
     min_timer: 90
     level_six: true
     event_broadcast: true
