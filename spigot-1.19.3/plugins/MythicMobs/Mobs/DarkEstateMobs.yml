@@ -1,0 +1,464 @@
+caveSpiderDarkEstate:
+  Type: CAVE_SPIDER
+  Display: '&4Poisonous Arachnid [LvL<mob.level>]'
+  Health: 20
+  Damage: 5
+  Drops:
+  - acidString 1-2 0.3
+  FollowRange: 20
+  MaxCombatDistance: 21
+  MovementSpeed: 0.13
+  LevelModifiers:
+    Health: 2.2
+    Damage: 1.2
+  Options:
+    PreventOtherDrops: true
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  - 3 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+zombieLonePeak:
+  Type: ZOMBIE
+  Display: '&4Ressurected Zombie [LvL<mob.level>]'
+  Health: 20
+  Damage: 6
+  Drops:
+  - Coin 0-5 0.01
+  LevelModifiers:
+    Health: 3
+    Damage: 1.5
+  Options:
+    PreventOtherDrops: true
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  - 3 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+treasureDarkEstate:
+  Type: ZOMBIE
+  Disguise:
+    Type: BLOCK
+    Block: IRON_BLOCK
+    BlockData: 0
+    ShowName: false
+  Display: '&6Chest'
+  Health: 20
+  Damage: 0
+  Drops:
+  - Coin 0-5 0.5
+  - totem_of_undying 0-1 0.5
+  - sea_lantern 1-64 0.5
+  - diamond 1-24 0.5
+  - gunPowderToken 1-2 0.5
+  - sugarToken 0-20 0.3
+  LevelModifiers:
+    Health: 3
+    Damage: 1.5
+  Options:
+    PreventOtherDrops: true
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+vindicatorDarkEstate:
+  Type: VINDICATOR
+  Display: '&4Vindicator of Cult of thr Damned [LvL<mob.level>]'
+  Health: 100
+  Damage: 7
+  Drops:
+  - sugarToken 1-20 0.3
+  LevelModifiers:
+    Health: 3
+    Damage: 1.5
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.33
+    MaxCombatDistance: 15
+    MovementSpeed: 0.33
+    FollowRange: 7
+    Despawn: false
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+roseDarkEstate:
+  Type: BABY_ZOMBIE
+  Disguise:
+    Type: BLOCK
+    Block: DOUBLE_PLANT
+    BlockData: 4
+    ShowName: false
+  Display: '&4Blood Rose [LvL<mob.level>]'
+  Health: 20
+  Skills:
+  - skill{s=roseGreenNausea} @Self 0.5
+  Damage: 2
+  AttackSpeed: 12
+  FollowRange: 4
+  MaxCombatDistance: 20
+  MovementSpeed: 0.1
+  LevelModifiers:
+  - health 2.2
+  - damage 1.2
+  Options:
+    PreventOtherDrops: true
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomlookaround
+  - 2 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+peonyDarkEstate:
+  Type: BABY_ZOMBIE
+  Disguise:
+    Type: BLOCK
+    Block: DOUBLE_PLANT
+    BlockData: 5
+    ShowName: false
+  Display: '&4Zephyr Peony [LvL<mob.level>]'
+  Health: 20
+  Skills:
+  - skill{s=peonyGreenNausea} @Self 0.5
+  Damage: 2
+  AttackSpeed: 6
+  FollowRange: 4
+  MaxCombatDistance: 20
+  MovementSpeed: 0.1
+  LevelModifiers:
+  - health 2.2
+  - damage 1.2
+  Options:
+    PreventOtherDrops: true
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomlookaround
+  - 2 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+trashDarkEstate:
+  Type: ZOMBIE
+  Equipment:
+  - iron_sword:0
+  - shield:5
+  Display: '&4Fanatic of Cult of the Damned [LvL<mob.level>]'
+  Disguise:
+    Type: Player
+    Player: '&4Dark Fanatic'
+    Skin: 'SiIven'
+  Health: 50
+  Damage: 8
+  Drops:
+  - sugarToken 1-10 0.4
+  LevelModifiers:
+    Health: 3
+    Damage: 1.5
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.33
+    MaxCombatDistance: 15
+    MovementSpeed: 0.33
+    FollowRange: 10
+    Despawn: false
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+huskDarkEstate:
+  Type: HUSK
+  Display: '&4Slave of Cult of the Damned [LvL<mob.level>]'
+  Equipment:
+  - huskDarkEstateHead:4
+  - iron_leggings:2
+  - iron_chestplate:3
+  - iron_boots:1
+  - iron_sword:0
+  - iron_sword:5
+  Health: 100
+  Damage: 7
+  Skills:
+  - skill{s=Bash} @Target 0.225
+  Drops:
+  - sugarToken 1-20 0.3
+  LevelModifiers:
+    Health: 3
+    Damage: 1.5
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.33
+    MaxCombatDistance: 15
+    MovementSpeed: 0.33
+    FollowRange: 7
+    Despawn: false
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+evokerBossDarkEstate:
+  Type: EVOKER
+  Display: '&4Barn the Evoker ♔'
+  Health: 1500
+  Damage: 4
+  Modules:
+    ThreatTable: true
+  Drops:
+  - sugarToken 1-64 1
+  - exp 500-1750 1
+  LevelModifiers:
+    Health: 3
+    Damage: 1.5
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.33
+    MaxCombatDistance: 15
+    MovementSpeed: 0.4
+    FollowRange: 6
+    Despawn: false
+  BossBar:
+    Enabled: true
+    Title: '&4Barns the Evoker'
+    Range: 10
+    Color: RED
+    Style: SEGMENTED_12
+  Skills:
+  - remove @MIR{r=10;types=evokerBossDarkEstate} ~onSpawn 1
+  - skill{s=evokerOpenEntry} ~onSpawn 1
+  - skill{s=summonVexes} @PIR{r=10} 0.22
+  - skill{s=SingleTargetFire} =50%-75% 0.2
+  - skill{s=AOEFire} <50% 0.3
+  - skill{s=copyNearPlayer} @target <40% 0.3
+  - skill{s=healBuff} @Self <35% 0.3
+  - skill{s=evokerCloseEntry} ~onCombat 1
+  - skill{s=evokerOpenEntry} ~onKillPlayer 1
+  - skill{s=evokerOpenEntry} ~onDeath 1
+  - skill{s=killVexes} ~onDeath 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+zombieDarkEstate:
+  Type: ZOMBIE
+  Display: '&4Elite Cursed Guardian [LvL<mob.level>]'
+  Equipment:
+  - zombieDarkEstateHead:4
+  - black_leggings:2
+  - black_chestplate:3
+  - black_boots:1
+  - enchanted_iron_sword:0
+  - enchanted_iron_sword:5
+  Health: 100
+  Damage: 8.5
+  Skills:
+  - skill{s=weaknessDebuff} @Target 0.225
+  - skill{s=invisibility} @Self ~onSpawn >0% 1
+  - skill{s=sweepEffect} ~onAttack >0% 1
+  Drops:
+  - sugarToken 1-20 0.3
+  LevelModifiers:
+    Health: 3
+    Damage: 1.5
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.33
+    MaxCombatDistance: 15
+    MovementSpeed: 0.25
+    FollowRange: 7
+    Despawn: false
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+zombieBossDarkEstate:
+  Type: ZOMBIE
+  Display: '&4Parsifal ♔'
+  Disguise:
+    Type: Player
+    Player: '&4Parsifal ♔'
+    Skin: 'iMattyz'
+  Health: 2000
+  Damage: 8
+  Modules:
+    ThreatTable: true
+  Drops:
+  - sugarToken 1-64 1
+  - exp 500-2000 1
+  LevelModifiers:
+    Health: 3
+    Damage: 1.5
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.3
+    MaxCombatDistance: 15
+    MovementSpeed: 0.3
+    FollowRange: 8
+    Despawn: false
+    PreventItemPickup: true
+  BossBar:
+    Enabled: true
+    Title: '&4Parsifal'
+    Range: 10
+    Color: RED
+    Style: SEGMENTED_12	
+  Skills:
+  - remove @MIR{r=10;types=zombieBossDarkEstate} ~onSpawn 1
+  - skill{s=zombieOpenEntry} ~onSpawn 1
+  - skill{s=kickAndSummon} <80% 0.5 
+  - skill{s=bleedingAndStunning} <50% 0.5
+  - skill{s=teleportAndSummon} <65% 0.3
+  - skill{s=strengthBuff} @Self <35% 0.35
+  - skill{s=zombieCloseEntry} ~onCombat 1
+  - skill{s=zombieOpenEntry} ~onDeath 1
+  - skill{s=zombieOpenEntry} ~onKillPlayer 1
+  - skill{s=killWolf} ~onCombat 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+trash1DarkEstate:
+  Type: CAVE_SPIDER
+  Display: '&4Cursed arachnid [LvL<mob.level>]'
+  Health: 55
+  Damage: 6.5
+  Skills:
+  - skill{s=invisibility} @Self ~onSpawn >0% 1
+  Drops:
+  - sugarToken 1-10 0.5
+  FollowRange: 7
+  MaxCombatDistance: 15
+  MovementSpeed: 0.2
+  LevelModifiers:
+    Health: 2.2
+    Damage: 1.2
+  Options:
+    PreventOtherDrops: true
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+teleportToLastDarkEstate:  Type: OCELOT
+  Disguise:
+    Type: BLOCK
+    Block: BEACON
+    BlockData: 0
+    ShowName: true
+  Display: '&6Teleportator'
+  Health: 200000
+  Invincible: false
+  Damage: 0
+  Skills:
+  - skill{s=teleportToLastBoss} @PIR{r=10} 1
+  LevelModifiers:
+    Health: 3
+    Damage: 1.5
+  Options:
+    PreventOtherDrops: true
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+skeletonBossDarkEstate:
+  Type: SKELETON
+  Display: '&4Lord Henning ♔'
+  Disguise:
+    Type: Player
+    Player: '&4Lord Henning ♔'
+    Skin: 'orangina3D'
+  Health: 2500
+  Damage: 8
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - henningBow:0
+  Drops:
+  - sugarToken 1-64 1
+  - exp 500-2500 1
+  LevelModifiers:
+    Health: 3
+    Damage: 1.5
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.33
+    MaxCombatDistance: 15
+    MovementSpeed: 0.28
+    FollowRange: 9
+    Despawn: false
+    PreventItemPickup: true
+  BossBar:
+    Enabled: true
+    Title: '&4Lord Henning'
+    Range: 10
+    Color: RED
+    Style: SEGMENTED_12
+  Skills:
+  - remove @MIR{r=10;types=skeletonBossDarkEstate} ~onSpawn 1
+  - skill{s=lightningStrikeSingle} <95% 0.5
+  - skill{s=lightningStrikeSingle} <70% 0.5
+  - skill{s=levitationDebuffAOE} <60% 0.35
+  - skill{s=sparkBolt} @Target <100% 0.5
+  - skill{s=killWolf} ~onCombat 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 skeletonbowattack
+  - 2 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+vexDarkEstate:
+  Type: VEX
+  Display: '&4Vex'
+  Health: 14
+  Damage: 13
+  Skills:
+  - potion{type=POISON;duration=200;level=4} @Self ~onSpawn 1
+  LevelModifiers:
+    Health: 3
+    Damage: 1.5
+  Options:
+    PreventOtherDrops: true
+    PreventItemPickup: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  AITargetSelectors:
+  - 0 clear
+  - 1 players

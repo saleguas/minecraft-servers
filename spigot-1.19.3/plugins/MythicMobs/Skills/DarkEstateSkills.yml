@@ -1,0 +1,233 @@
+roseGreenNausea:
+  Cooldown: 120
+  Skills:
+  - message{m="<mob.name><&co> <shouting in Flowerish>"} @PlayersInRadius{r=5}
+  - effect:itemspray{item=wheat_seeds;amount=20;velocity=5;d=100;} @Self
+peonyGreenNausea:
+  Cooldown: 120
+  Skills:
+  - message{m="<mob.name><&co> <squakes with leaves>"} @PlayersInRadius{r=5}
+  - effect:itemspray{item=wheat_seeds;amount=20;velocity=5;d=100;} @Self
+agroRange:
+  Conditions:
+  - targetwithin 10
+Bash:
+  Cooldown: 1
+  Conditions:
+  - targetwithin 5
+  Skills:
+  - message{msg="<mob.name>&e stuns &2<target.name>&e!"} @PlayersInRadius{r=15}
+  - effect:sound{s=block.anvil.land;v=1;p=1;} @target
+  - damage{a=6} @target
+  - potion{t=SLOW;d=20;l=7}
+summonVexes:
+  Cooldown: 800
+  Skills:
+  - message{m="<mob.name><&co> &eTorture their souls!"} @PlayersInRadius{r=20}
+  - delay 60
+  - summon{type=vindicatorDarkEstate;amount=1;noise=5;radius=2} @Self
+  - delay 60
+  - summon{type=vindicatorDarkEstate;amount=1;noise=5;radius=2} @Self
+SingleTargetFire:
+  Cooldown: 1
+  Skills:
+  - message{m="<mob.name><&co> &eAnd you... will burn down to ash!"} @PlayersInRadius{r=20}
+  - delay 20
+  - effect:particles{p=flame;hs=1;vs=1;a=50;s=0.01;} @Target  
+  - damage{a=18;ignorearmor=false;}
+  - ignite{d=60;}
+copyNearPlayer:
+  CoolDown: 30
+  Skills:
+  - message{msg="<mob.name><&co> &e You won't save anyone!"} @PlayersInRadius{r=20}
+  - delay 20
+  - doppleganger @NearestPlayer
+AOEFire:
+  Cooldown: 10
+  Skills:
+  - message{msg="<mob.name><&co> &e I will burn your souls!"} @PIR{r=20}
+  - potion{type=SLOW;d=80;level=7;}
+  - delay 60
+  - message{m="<target.name>&e burn and suffer in agone!"} @PIR{r=20}
+  - effect:particles{p=reddust;hs=10;vs=1;a=1000;s=0.01;}
+  - effect:particles{p=flame;hs=10;vs=1;a=1000;s=0.01;}
+  - effect:sound{s=entity.ghast.fireball;v=1;p=1;}
+  - damage{a=22;ignorearmor=false;} @PIR{r=10}
+  - ignite{d=60;} @PIR{r=10}
+healBuff:
+  Cooldown: 1
+  Skills:
+  - message{msg="<mob.name><&co> &e souls of cursed will give me power!"} @PlayersInRadius{r=20}
+  - delay 20
+  - potion{type=REGENERATION;duration=160;level=4}
+sweepEffect:
+  CoolDown: 1
+  Skills:
+  - effect:particles{p=sweepAttack;vs=0;hs=2;a=2;s=1.5;y=0.5;} @Self
+invisibility:
+  Cooldown: 1
+  Skills:
+  - potion{type=INVISIBILITY;duration=1728000;level=1}
+weaknessDebuff:
+  Cooldown: 1
+  Conditions:
+  - targetwithin 5
+  Skills:
+  - message{msg="<mob.name><&co> &e weakens &2<target.name>&e!"} @PlayersInRadius{r=15}
+  - effect:sound{s=block.anvil.land;v=1;p=1;} @target
+  - damage{a=6} @target
+  - potion{t=WEAKNESS;d=100;l=1}
+evokerCloseEntry:
+  Cooldown: 200
+  Skills:
+  - command{c="minecraft:setblock -2322 72 285 minecraft:noteblock"}
+evokerOpenEntry:
+  Cooldown: 1
+  Skills:
+  - command{c="minecraft:setblock -2322 72 285 minecraft:air"}
+zombieCloseEntry:
+  Cooldown: 200
+  Skills:
+  - command{c="minecraft:setblock -2322 76 283 minecraft:noteblock"}
+  - command{c="minecraft:setblock -2320 76 295 minecraft:noteblock"}
+  - command{c="minecraft:setblock -2323 79 287 minecraft:planks"}
+  - command{c="minecraft:setblock -2323 79 288 minecraft:planks"}
+  - command{c="minecraft:setblock -2323 79 289 minecraft:planks"}
+zombieOpenEntry:
+  Cooldown: 1
+  Skills:
+  - command{c="minecraft:setblock -2322 76 283 minecraft:air"}
+  - command{c="minecraft:setblock -2320 76 295 minecraft:air"}
+  - command{c="minecraft:setblock -2323 79 287 minecraft:air"}
+  - command{c="minecraft:setblock -2323 79 288 minecraft:air"}
+  - command{c="minecraft:setblock -2323 79 289 minecraft:air"}
+skeletonCloseEntry:
+  Cooldown: 1
+  Skills:
+  - command{c="minecraft:setblock -2406 72 586 minecraft:barrier"}
+skeletonOpenEntry:
+  Cooldown: 1
+  Skills:
+  - command{c="minecraft:setblock -2406 72 586 minecraft:air"}
+kickAndSummon:
+  Cooldown: 1
+  Skills:
+  - message{msg="<mob.name><&co> &e: I will smash you all!"} @PlayersInRadius{r=20}
+  - effect:particles{p=sweepAttack;vs=0;hs=2;a=15;s=1.5;y=0.5;} @Self
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:sound{s=entity.splash_potion.throw;v=1;p=1;} @PlayersInRadius{r=5}
+  - delay 60
+  - damage{amount=20;ignoreArmor=false} @PlayersInRadius{r=7}
+  - message{msg="<mob.name><&co> &e: And you will be my top target <target.name>!"} @PlayersInRadius{r=20}
+  - delay 60
+  - pull{velocity=10} @Target
+  - effect:sound{s=entity.splash_potion.throw;v=1;p=1;} @Target
+  - damage{amount=25;ignoreArmor=false} @Target
+bleedingAndStunning:
+  Cooldown: 1
+  Skills:
+  - message{msg="<mob.name><&co> &e: I will cut your flesh!"} @PlayersInRadius{r=20}
+  - effect:particles{p=crit;vs=0;hs=2;a=10;s=1.5;y=0.5} @PlayersInRadius{r=5}
+  - damage{amount=20;ignoreArmor=false} @PlayersInRadius{r=5}
+  - effect:sound{s=entity.player.attack.sweep;v=1;p=1;} @PlayersInRadius{r=5}
+  - delay 60
+  - effect:particles{p=reddust;color=#FF0000} @PlayersInRadius{r=5}
+  - damage{amount=18;ignoreArmor=false} @PlayersInRadius{r=5}
+  - potion{t=WEAKNESS;d=140;l=2} @PlayersInRadius{r=5}
+  - delay 60
+  - effect:particles{p=reddust;color=#FF0000} @PlayersInRadius{r=5}
+  - damage{amount=18;ignoreArmor=false} @PlayersInRadius{r=5}
+  - delay 60
+  - effect:particles{p=reddust;color=#FF0000} @PlayersInRadius{r=5}
+  - damage{amount=18;ignoreArmor=false} @PlayersInRadius{r=5}
+teleportAndSummon:
+  Cooldown: 120
+  Skills:
+  - message{msg="<mob.name>&e: The Cult is an Absolute!}
+  - teleportto{location=-2310,75,290} @Self
+  - teleportto{location=-2310,75,290} @NearestPlayer{r=10}
+  - delay 60
+  - damage{amount=24;ignoreArmor=false} @NearestPlayer{r=2}
+  - message{msg="<mob.name>&e: The Cult is only power!}
+  - teleportto{location=-2319,75,282} @Self
+  - teleportto{location=-2319,75,282} @NearestPlayer{r=10}
+  - delay 60
+  - damage{amount=24;ignoreArmor=false} @NearestPlayer{r=2}
+  - message{msg="<mob.name>&e: The Cult is the End of you!}
+  - teleportto{location=-2311,75,282} @Self
+  - teleportto{location=-2311,75,282} @NearestPlayer{r=10}
+  - delay 60
+  - damage{amount=24;ignoreArmor=false} @NearestPlayer{r=2}
+  - message{msg="<mob.name>&e: You are the slave of false god!}
+  - teleportto{location=-2311,75,290} @Self
+  - teleportto{location=-2311,75,290} @NearestPlayer{r=10}
+  - delay 60
+killVexes:
+  Cooldown: 1
+  Skills:
+  - command{c="killall vex"}
+teleportToLastBoss:
+  Cooldown: 72000
+  Skills:
+  - message{msg="<mob.name><&co>&2<target.name>&e <whoosh>!"} @PlayersInRadius{r=10}
+  - teleportto{location=-2321,97,286} @PIR{r=10}
+levitationDebuffAOE:
+  Cooldown: 1
+  Skills:
+  - message{msg="<mob.name><&co> &e makes &2<target.name>&e levitate!"} @PlayersInRadius{r=10}
+  - effect:sound{s=entity.blaze.shoot;v=1;p=1;} @PlayersInRadius{r=10}
+  - damage{a=10} @PlayersInRadius{r=10}
+  - potion{t=LEVITATION;d=100;l=2} @PlayersInRadius{r=10}
+  - potion{t=CONFUSION;d=100;l=2} @PlayersInRadius{r=10}
+lightningStrikeSingle:
+  Cooldown: 1
+  Conditions:
+  - targetwithin 10
+  - targetinlineofsight true
+  Skills:
+  - message{m="$boss &ecasts a spell."} @PIR{r=10}
+  - potion{type=SLOW;d=60;level=7;} @self
+  - delay 120
+  - lightning{d=17;} @Target
+  - message{m="<target.name>&e was stroke by lightning"} @PIR{r=10}
+  - delay 5
+  - effect:smoke @Target
+  - effect:particles{p=fireworksSpark;vs=1;hs=1;a=50;s=1;} @Target
+  - effect:particles{p=reddust;vs=1;hs=1;a=50;s=0.01;} @Target
+lightningStrikeAOE:
+  Cooldown: 1
+  Conditions:
+  - targetwithin 10
+  - targetinlineofsight true
+  Skills:
+  - message{m="$boss &ecasts a spell."} @PIR{r=10}
+  - potion{type=SLOW;d=60;level=7;} @self
+  - delay 60
+  - lightning{d=12;} @PIR{r=10}
+  - potion{type=HUNGER;d=100;l=1} @PlayersInRadius{r=10}
+  - message{m="<target.name>&e is shocked"} @PIR{r=10}
+  - delay 5
+  - effect:smoke @PIR{r=10}
+  - effect:particles{p=fireworksSpark;vs=1;hs=1;a=50;s=1;} @PIR{r=10}
+  - effect:particles{p=reddust;vs=1;hs=1;a=50;s=0.01;} @PIR{r=10}
+sparkBolt:
+  Skills:
+  - projectile{onTick=sparkBoltTick;onHit=sparkBoltHit;v=8;i=1;hR=1;vR=1}
+sparkBoltTick:
+  Skills:
+  - effect:particles{p=fireworksSpark;amount=20;speed=0;hS=0.2;vS=0.2} @origin
+sparkBoltHit:
+  Skills:
+  - damage{a=17}
+  - potion{type=SLOW;duration=100;lvl=2}
+  - effect:particles{p=snowshovel;amount=20;speed=0;hS=0.2;vS=0.2}
+killWolf:
+  Cooldown: 600
+  Skills:
+  - command{c="killall wolf 10"}
+strengthBuff:
+  Cooldown: 300
+  Skills:
+  - message{msg="<mob.name><&co> &e is filled with Dark power!"} @PlayersInRadius{r=20}
+  - delay 80
+  - potion{type=INCREASE_DAMAGE;duration=100;level=2}

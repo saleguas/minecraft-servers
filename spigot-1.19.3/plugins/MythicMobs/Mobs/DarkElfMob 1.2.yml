@@ -1,0 +1,30 @@
+DarkElf:
+  Type: SKELETON
+  Display: "&4Dark Elf"
+  Health: 200
+  Damage: 6
+  Options:
+    MovementSpeed: 0.35
+    PreventSunburn: true
+  DamageModifiers:
+  - FALL 0
+  BossBar:
+    Enabled: true
+    Title: '&4&lDark Elf'
+    Range: 16
+    Color: PURPLE
+    Style: SEGMENTED_10
+  Disguise:
+    Type: Player
+    Player: Dark Elf
+    Skin: PECIOESP
+  Equipment:
+  - STONE_SWORD HAND
+  Skills:
+  - teleport{spreadh=3;spreadv=2} @target ~onTimer:60
+  - potion{t=BLINDNESS;d=80} @EntitiesInRadius{r=6} ~onTimer:60
+  - potion{t=BLINDNESS;d=80} @EntitiesInRadius{r=6} ~onCombat
+  - skill{s=DarkElfPushBack} @Self ~onDamaged =50%
+  - skill{s=DarkElfBuff} @Self =50%
+  - effect:flames @Self ~onTimer:3 =50%
+  - effect:flames @Self ~onTimer:3 <50%

@@ -1,0 +1,276 @@
+Coin:
+  Id: 397
+  Data: 3
+  Display: '&aMonster skull'
+  Lore:
+  - '&7Special currency item'
+  - '&7Drops in dungeons'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19
+    Repairable: false
+acidString:
+  Id: 287
+  Data: 0
+  Display: '&aAcid Web'
+  Lore:
+  - '&7"I will need to wash my hands after this"'
+  Options:
+    Repairable: false
+tankHelmet:
+  Id: 310
+  Data: 0
+  Display: '&9Helmet of Relentless Guardian'
+  Lore: '&7'
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:5
+  - PROTECTION_ENVIRONMENTAL:5
+  - WATER_WORKER:1
+  Attributes:
+    Head:
+      Armor: 4.5
+      KnockbackResistance: 2.5
+      MovementSpeed: -0.075
+tankChestplate:
+  Id: 311
+  Data: 0
+  Display: '&9Chestplate of Relentless Guardian'
+  Lore: '&7'
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:5
+  - PROTECTION_ENVIRONMENTAL:5
+  Attributes:
+    Chest:
+      Armor: 9.5
+      KnockbackResistance: 2.5
+      MovementSpeed: -0.075
+tankLeggings:
+  Id: 312
+  Data: 0
+  Display: '&9Leggings of Relentless Guardian'
+  Lore: '&7'
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:5
+  - PROTECTION_ENVIRONMENTAL:5
+  Attributes:
+    Legs:
+      Armor: 7.5
+      KnockbackResistance: 2.5
+      MovementSpeed: -0.075
+tankBoots:
+  Id: 313
+  Data: 0
+  Display: '&9Boots of Relentless Guardian'
+  Lore: '&7'
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:5
+  - DEPTH_STRIDER:3
+  - PROTECTION_ENVIRONMENTAL:5
+  Attributes:
+    Legs:
+      Armor: 4.5
+      KnockbackResistance: 2.5
+      MovementSpeed: -0.075
+tankSword:
+  Id: 276
+  Data: 0
+  Display: '&9Smashing Sword of Guardian'
+  Lore: '&7'
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:5
+  - SWEEPING_EDGE:4
+  - FIRE_ASPECT:1
+  Attributes:
+    MainHand:
+      AttackSpeed: 0.33
+      Damage: 4
+tankShield:
+  Id: 442
+  Data: 0
+  Display: '&9Hedge of Guardian'
+  Lore: '&7'
+  Options:
+    Repairable: false
+  Attributes:
+    OffHand:
+      KnockbackResistance: 3
+      Health: 4
+huskDarkEstateHead:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1MTA2NjU2MDIwMzEsInByb2ZpbGVJZCI6ImE5MGI4MmIwNzE4NTQ0ZjU5YmE1MTZkMGY2Nzk2NDkwIiwicHJvZmlsZU5hbWUiOiJJbUZhdFRCSCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg0Y2E5NjIyNGUyYjY2MmYyNjZhM2ZkZjIxY2QwMmVkNzVkMjIyYzRjMzY4OGRhMGE4MjMyN2I3Nzc2YjkifX19
+sugarToken:
+  Id: 405	
+  Data: 0
+  Display: '&5Ingot of Dark Iron'
+  Lore:
+  - '&7This currency is used'
+  - '&7to buy advanced gear'
+  Options:
+    Repairable: false
+zombieDarkEstateHead:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1MTA5NTE1NzYzODAsInByb2ZpbGVJZCI6IjdjZjc2MTFkYmY2YjQxOWRiNjlkMmQzY2Q4NzUxZjRjIiwicHJvZmlsZU5hbWUiOiJrYXJldGg5OTkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyNjFhNDJiZjFmYWFmNjM4ZWQ4YWE4MWNhMjM4NTEwYTM4ZDBlYTlmNjI3Mzc5MWVhZjVlNjc1MWUyZjU4ZiJ9fX0
+black_boots:  
+  Id: 301
+  Data: 0
+  Options:
+    Color: 0,0,0
+black_chestplate:  
+  Id: 299
+  Data: 0
+  Options:
+    Color: 0,0,0
+black_leggings:  
+  Id: 300
+  Data: 0
+  Options:
+    Color: 0,0,0
+enchanted_iron_sword:
+  Id: 267
+  Data: 0
+  Enchantments:
+  - DURABILITY:1
+henningBow:
+  Id: 261
+  Data: 0
+  Display: 'Bow'
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:1
+attackerHelmet:
+  Id: 310
+  Data: 0
+  Display: '&9Helmet of Dark Rush'
+  Lore:
+  - '&7 '  
+  - '&7Inlayed with dark iron'
+  - '&7 '  
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:6
+  - PROTECTION_ENVIRONMENTAL:5
+  - WATER_WORKER:1
+  Attributes:
+    Head:
+      Armor: 4
+      Damage: 0.25
+      KnockbackResistance: 2
+      MovementSpeed: -0.007
+attackerChestplate:
+  Id: 311
+  Data: 0
+  Display: '&9Chestplate of Dark Rush'
+  Lore:
+  - '&7 '  
+  - '&7Inlayed with dark iron'
+  - '&7 '  
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:6
+  - PROTECTION_ENVIRONMENTAL:5
+  Attributes:
+    Chest:
+      Armor: 9
+      Damage: 0.25
+      KnockbackResistance: 2
+      MovementSpeed: -0.007
+attackerLeggings:
+  Id: 312
+  Data: 0
+  Display: '&9Leggings of Dark Rush'
+  Lore:
+  - '&7 '  
+  - '&7Inlayed with dark iron'
+  - '&7 '  
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:6
+  - PROTECTION_ENVIRONMENTAL:5
+  Attributes:
+    Legs:
+      Armor: 7
+      Damage: 0.25
+      KnockbackResistance: 2
+      MovementSpeed: -0.007
+attackerBoots:
+  Id: 313
+  Data: 0
+  Display: '&9Boots of Dark Rush'
+  Lore:
+  - '&7 '  
+  - '&7Inlayed with dark iron'
+  - '&7 '  
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:6
+  - DEPTH_STRIDER:3
+  - PROTECTION_ENVIRONMENTAL:5
+  Attributes:
+    Feet:
+      Armor: 4
+      Damage: 0.25
+      KnockbackResistance: 2
+      MovementSpeed: -0.007
+attackerSword:
+  Id: 276
+  Data: 0
+  Display: '&9Sword of Dark Rush'
+  Lore:
+  - '&7 '  
+  - '&7Grip is inlayed with dark iron'
+  - '&7 '  
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:6
+  - DAMAGE_ALL:7
+  - FIRE_ASPECT:2
+  Attributes:
+    MainHand:
+      Damage: 13.5
+      AttackSpeed: 0.2
+attackerShield:
+  Id: 442
+  Data: 0
+  Display: '&9Stun of Cult'
+  Lore:
+  - '&7 '  
+  - '&7Frame is inlayed with dark iron'
+  - '&7 '  
+  Options:
+    Repairable: false
+  Enchantments:
+  - DURABILITY:5
+  Attributes:
+    OffHand:
+      KnockbackResistance: 3
+      Armor: 4.5
+      Health: 4
+gunPowderToken:
+  Id: 289
+  Data: 0
+  Display: '&f&lGrave dust'
+  Lore:
+  - '&e&oDo not inhale'
+  Options:
+  - Repairable: false
+  Enchantments:
+  - DURABILITY:10

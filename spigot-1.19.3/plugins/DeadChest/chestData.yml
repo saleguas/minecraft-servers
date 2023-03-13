@@ -1,0 +1,558 @@
+chestData:
+- ==: ChestData
+  playerUUID: 45118bf1-56ff-416e-b0cc-26ddcd93325c
+  holographicTimer: world;205.5;63.799999952316284;275.5
+  worldName: world
+  as_timer_id: 10c0572d-a1e4-4524-800c-2de862fd322a
+  playerName: 5xw
+  isInfinity: false
+  as_owner_id: 96a31d0c-7bf2-4dea-9fca-df8e0f5bde31
+  chestDate: 2022-11-09T04:54:42.782Z
+  inventory:
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: WHEAT_SEEDS
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: world;205.0;63.0;275.0
+- ==: ChestData
+  playerUUID: 7352e6cd-930e-4480-9e49-e712fbe6ff69
+  holographicTimer: world;200.5;67.79999995231628;104.5
+  worldName: world
+  as_timer_id: 569004b4-68e2-4b7e-9964-d36491bd1d8f
+  playerName: Pinkittyz
+  isInfinity: false
+  as_owner_id: dd45deb9-43f6-4986-9408-1114e1c8b62e
+  chestDate: 2022-11-09T04:54:52.631Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Slimefun
+        Guide "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(Chest
+        GUI)"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Right
+        Click "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Browse
+        Items"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Shift
+        + Right Click "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Open
+        Settings / Credits"}],"text":""}'
+      PublicBukkitValues:
+        slimefun:slimefun_guide_mode: SURVIVAL_MODE
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: world;200.0;67.0;104.0
+- ==: ChestData
+  playerUUID: 6e26e217-910f-4e9e-a8ab-d993d1b68a08
+  holographicTimer: world;168.5;63.799999952316284;291.5
+  worldName: world
+  as_timer_id: 905b39bb-c5aa-458b-9e6f-10c554873a47
+  playerName: LittleBoomah
+  isInfinity: false
+  as_owner_id: cfa90192-1225-4b37-9df6-c4fe5f07f51f
+  chestDate: 2022-11-09T04:57:18.216Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: OAK_PLANKS
+    amount: 11
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: OAK_SAPLING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: WOODEN_AXE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: STICK
+    amount: 2
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: world;168.0;63.0;291.0
+- ==: ChestData
+  playerUUID: 45118bf1-56ff-416e-b0cc-26ddcd93325c
+  holographicTimer: world;242.5;63.799999952316284;261.5
+  worldName: world
+  as_timer_id: 55214d0a-5d69-46f8-aabf-8cae7f870e75
+  playerName: 5xw
+  isInfinity: false
+  as_owner_id: 9509141b-f481-406d-a9ef-8373bfe4ad43
+  chestDate: 2022-11-09T05:03:56.031Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: WOODEN_AXE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: WOODEN_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: OAK_SAPLING
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: WHEAT
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: BREAD
+    amount: 19
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: IRON_HORSE_ARMOR
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: STICK
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: WHEAT
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: OAK_PLANKS
+    amount: 9
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: TORCH
+    amount: 3
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: world;242.0;63.0;261.0
+- ==: ChestData
+  playerUUID: 6e26e217-910f-4e9e-a8ab-d993d1b68a08
+  holographicTimer: world;229.5;67.79999995231628;270.5
+  worldName: world
+  as_timer_id: ef832a0f-0599-465f-af92-a2a9ea95a3ad
+  playerName: LittleBoomah
+  isInfinity: false
+  as_owner_id: 0355b70d-5c80-4110-8a11-c2e4cc9e8ca1
+  chestDate: 2022-11-09T05:06:53.088Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: OAK_PLANKS
+    amount: 11
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: WOODEN_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 13
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: STICK
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: OAK_LOG
+    amount: 11
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: OAK_SAPLING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: CRAFTING_TABLE
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: EMERALD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: POTATO
+    amount: 15
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: BREAD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: APPLE
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: world;229.0;67.0;270.0
+- ==: ChestData
+  playerUUID: 7352e6cd-930e-4480-9e49-e712fbe6ff69
+  holographicTimer: world;234.5;65.79999995231628;313.5
+  worldName: world
+  as_timer_id: dd51bd9b-0f34-4df2-8993-15d806edd121
+  playerName: Pinkittyz
+  isInfinity: false
+  as_owner_id: ab43500c-3272-4220-8f9e-98fba553ab98
+  chestDate: 2022-11-09T05:08:03.892Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: YELLOW_BED
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: OAK_PLANKS
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: OAK_SAPLING
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: ARROW
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: STRING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: IRON_INGOT
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: GOLD_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: IRON_PICKAXE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: IRON_PICKAXE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: APPLE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: YELLOW_BED
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: STICK
+    amount: 2
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: OAK_PLANKS
+    amount: 20
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1
+  - null
+  - null
+  chestLocation: world;234.0;65.0;313.0
+- ==: ChestData
+  playerUUID: 7352e6cd-930e-4480-9e49-e712fbe6ff69
+  holographicTimer: world;224.5;-7.200000047683716;142.5
+  worldName: world
+  as_timer_id: 0d3524ac-2ce3-4750-a0e0-2038692a3da7
+  playerName: Pinkittyz
+  isInfinity: false
+  as_owner_id: c849c53e-0fab-4d83-8fb1-17cdae587cbc
+  chestDate: 2022-11-09T05:10:04.787Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: ROTTEN_FLESH
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: WHEAT_SEEDS
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: DANDELION
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: CORNFLOWER
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: world;224.0;-8.0;142.0
+- ==: ChestData
+  playerUUID: 45118bf1-56ff-416e-b0cc-26ddcd93325c
+  holographicTimer: world;196.5;-19.200000047683716;108.5
+  worldName: world
+  as_timer_id: 545f5679-142b-44dd-98ee-e52f0bb63026
+  playerName: 5xw
+  isInfinity: false
+  as_owner_id: 97d97a32-8f6e-4675-b4a3-f7ff6bada6f5
+  chestDate: 2022-11-09T05:10:07.631Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: COBBLED_DEEPSLATE
+    amount: 2
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: world;196.0;-20.0;108.0

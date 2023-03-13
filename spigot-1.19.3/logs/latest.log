@@ -1,0 +1,346 @@
+[20:12:14] [ServerMain/INFO]: Building unoptimized datafixer
+[20:12:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:12:15] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[20:12:16] [ServerMain/INFO]: Loaded 7 recipes
+[20:12:17] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[20:12:17] [Server thread/INFO]: Loading properties
+[20:12:17] [Server thread/INFO]: This server is running CraftBukkit version 3669-Spigot-454acb7-f150cfb (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT)
+[20:12:17] [Server thread/INFO]: Debug logging is disabled
+[20:12:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:12:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:12:17] [Server thread/INFO]: Default game type: SURVIVAL
+[20:12:17] [Server thread/INFO]: Generating keypair
+[20:12:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:12:17] [Server thread/INFO]: Using default channel type
+[20:12:18] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[20:12:20] [Server thread/WARN]: Legacy plugin SimpleTpa v6.1 does not specify an api-version.
+[20:12:20] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.1
+[20:12:20] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[20:12:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@41654a18]
+[20:12:21] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v5.2.1-fd1d0777
+[20:12:21] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[20:12:21] [Server thread/INFO]: [Slimefun] Loading Slimefun vDEV - 1048 (git 157fe449)
+[20:12:21] [Server thread/INFO]: [DeadChest] Loading DeadChest v4.12.1
+[20:12:21] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
+[20:12:21] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[20:12:21] [Server thread/INFO]: [DeadlyDisasters] Loading DeadlyDisasters v10.3
+[20:12:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[20:12:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:12:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:12:21] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[20:12:21] [Server thread/INFO]: [WorldEdit] ====================================================
+[20:12:21] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[20:12:21] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[20:12:21] [Server thread/INFO]: [WorldEdit]   
+[20:12:21] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[20:12:21] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[20:12:21] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[20:12:21] [Server thread/INFO]: [WorldEdit]   
+[20:12:21] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[20:12:21] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[20:12:21] [Server thread/INFO]: [WorldEdit]   
+[20:12:21] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[20:12:21] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[20:12:21] [Server thread/INFO]: [WorldEdit]   
+[20:12:21] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[20:12:21] [Server thread/INFO]: [WorldEdit] ====================================================
+[20:12:21] [Server thread/INFO]: Preparing level "world"
+[20:12:21] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:12:21] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:12:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:12:21] [Server thread/INFO]: Simulation Distance: 10
+[20:12:21] [Server thread/INFO]: View Distance: 10
+[20:12:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:12:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:12:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:12:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:12:21] [Server thread/INFO]: Mob Spawn Range: 6
+[20:12:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:12:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:12:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[20:12:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:12:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:12:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:12:21] [Server thread/INFO]: Max TNT Explosions: 100
+[20:12:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:12:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:12:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:12:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:12:23] [Server thread/INFO]: Simulation Distance: 10
+[20:12:23] [Server thread/INFO]: View Distance: 10
+[20:12:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:12:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:12:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:12:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:12:23] [Server thread/INFO]: Mob Spawn Range: 6
+[20:12:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:12:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:12:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[20:12:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:12:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:12:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:12:23] [Server thread/INFO]: Max TNT Explosions: 100
+[20:12:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:12:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:12:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:12:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:12:24] [Server thread/INFO]: Simulation Distance: 10
+[20:12:24] [Server thread/INFO]: View Distance: 10
+[20:12:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:12:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:12:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:12:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:12:24] [Server thread/INFO]: Mob Spawn Range: 6
+[20:12:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:12:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:12:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[20:12:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:12:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:12:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:12:24] [Server thread/INFO]: Max TNT Explosions: 100
+[20:12:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:12:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:12:24] [Server thread/INFO]: Preparing spawn area: 0%
+[20:12:24] [Worker-Main-1/INFO]: Preparing spawn area: 44%
+[20:12:25] [Worker-Main-12/INFO]: Preparing spawn area: 75%
+[20:12:26] [Worker-Main-12/INFO]: Preparing spawn area: 75%
+[20:12:26] [Worker-Main-5/INFO]: Preparing spawn area: 75%
+[20:12:26] [Worker-Main-12/INFO]: Preparing spawn area: 75%
+[20:12:27] [Worker-Main-14/INFO]: Preparing spawn area: 75%
+[20:12:27] [Worker-Main-4/INFO]: Preparing spawn area: 77%
+[20:12:28] [Worker-Main-13/INFO]: Preparing spawn area: 80%
+[20:12:28] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[20:12:29] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[20:12:29] [Worker-Main-15/INFO]: Preparing spawn area: 84%
+[20:12:30] [Worker-Main-3/INFO]: Preparing spawn area: 84%
+[20:12:31] [Worker-Main-11/INFO]: Preparing spawn area: 86%
+[20:12:31] [Worker-Main-11/INFO]: Preparing spawn area: 95%
+[20:12:31] [Server thread/INFO]: Time elapsed: 7315 ms
+[20:12:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:12:31] [Server thread/INFO]: Preparing spawn area: 0%
+[20:12:32] [Worker-Main-3/INFO]: Preparing spawn area: 86%
+[20:12:32] [Worker-Main-1/INFO]: Preparing spawn area: 86%
+[20:12:33] [Worker-Main-11/INFO]: Preparing spawn area: 86%
+[20:12:33] [Worker-Main-1/INFO]: Preparing spawn area: 91%
+[20:12:34] [Worker-Main-10/INFO]: Preparing spawn area: 98%
+[20:12:34] [Server thread/INFO]: Time elapsed: 2634 ms
+[20:12:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:12:34] [Server thread/INFO]: Preparing spawn area: 0%
+[20:12:34] [Server thread/INFO]: Time elapsed: 480 ms
+[20:12:34] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.1
+[20:12:34] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[20:12:34] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.1[m
+[20:12:34] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[20:12:34] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.2.1-fd1d0777
+[20:12:35] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Spigot (MC: 1.19.3)...[0m
+[20:12:35] [Server thread/INFO]: [MythicMobs] The server is running Spigot; disabled PaperSpigot exclusive functionality[0m
+[20:12:35] [Server thread/INFO]: [MythicMobs] Base directory C:\Users\drale\Documents\Minecraft Servers\spigot-1.19.2\plugins\MythicMobs\SavedData
+[20:12:35] [Server thread/INFO]: [MythicMobs] Module directory C:\Users\drale\Documents\Minecraft Servers\spigot-1.19.2\plugins\MythicMobs\SavedData\worlds
+[20:12:35] [Server thread/INFO]: [MythicMobs] [36mLOADED[0m
+[20:12:35] [Server thread/INFO]: [MythicMobs] File stats.yml not found! Creating a new one...
+[20:12:35] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[20:12:35] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[20:12:35] [Server thread/WARN]: [MythicMobs] Failed to parse Placeholder '13.5': Math and variables in numeric values require premium! Consider getting MythicMobs Premium at www.mythiccraft.io[0m[0m
+[20:12:35] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[20:12:35] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 49 mobs.[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 3 vanilla mob overrides.[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 mob stacks.[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 136 skills.[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 0 random spawns.[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 26 mythic items.[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 2 drop tables.[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] [32m?[37m Loaded 78 mob spawners.[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[20:12:36] [Server thread/ERROR]: [MythicMobs] Plugin MythicMobs v5.2.1-fd1d0777 has failed to register events for class io.lumine.mythic.bukkit.adapters.BukkitSkillTriggers because com/destroystokyo/paper/event/entity/CreeperIgniteEvent does not exist.
+[20:12:36] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
+[20:12:36] [Server thread/INFO]: [MythicMobs] [32m? MythicMobs v5.2.1 ( build fd1d0777 ) has been successfully loaded![0m[0m
+[20:12:36] [Server thread/INFO]: [Slimefun] Enabling Slimefun vDEV - 1048 (git 157fe449)
+[20:12:36] [Server thread/INFO]: [Slimefun] ====================================================
+[20:12:36] [Server thread/INFO]: [Slimefun]  Slimefun works better if you use Paper 
+[20:12:36] [Server thread/INFO]: [Slimefun]  as your server software. 
+[20:12:36] [Server thread/INFO]: [Slimefun] ====================================================
+[20:12:36] [Server thread/INFO]: [Slimefun] Creating directories...
+[20:12:36] [Server thread/INFO]: [Slimefun] Loading language files...
+[20:12:36] [Server thread/INFO]: [Slimefun] Loaded language "en"
+[20:12:36] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
+[20:12:36] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
+[20:12:36] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
+[20:12:37] [Server thread/INFO]: [Slimefun] Loading Tags...
+[20:12:37] [Server thread/INFO]: [Slimefun] Loading items...
+[20:12:37] [Server thread/INFO]: [Slimefun] Loading researches...
+[20:12:37] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
+[20:12:37] [Server thread/INFO]: [Slimefun] Registering listeners...
+[20:12:37] [Server thread/INFO]: [Slimefun] Loading Third-Party plugin integrations...
+[20:12:37] [Server thread/INFO]: [Slimefun] Hooked into Plugin: WorldEdit v7.2.12+6240-87f4ae1
+[20:12:37] [Server thread/INFO]: [Slimefun] Slimefun has finished loading in 1.07s
+[20:12:37] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.12.1
+[20:12:37] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[20:12:37] [Server thread/INFO]: [0;37;1m[0;37;1m[m[CoreProtect] CoreProtect has been successfully enabled![0;37;1m[0;37;1m [m
+[20:12:37] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[20:12:37] [Server thread/INFO]: --------------------
+[20:12:37] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[20:12:37] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[20:12:37] [Server thread/INFO]: --------------------
+[20:12:37] [Server thread/INFO]: [DeadlyDisasters] Enabling DeadlyDisasters v10.3
+[20:12:37] [Server thread/INFO]: [DeadlyDisasters] Successfully hooked into CoreProtect
+[20:12:37] [Server thread/INFO]: [DeadlyDisasters] Checking for update...
+[20:12:37] [Server thread/INFO]: [0;33;22m[21m[DeadlyDisasters]: [0;32;1mEnjoying the plugin? Try the pro version which has many new features such as new [0;35;1mnew disasters, new custom mobs, new custom items, regenerating worlds, block stability for bases, and much more [0;32;1mupgrade now to pro here https://www.spigotmc.org/resources/deadlydisasters-pro.100918/[m
+[20:12:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:12:37] [Server thread/INFO]: Done (16.119s)! For help, type "help"
+[20:12:38] [Server thread/INFO]: [Slimefun] Now running MetricsModule build #28
+[20:12:38] [Server thread/INFO]: [Slimefun] with a total of 19/19 chart(s)!
+[20:12:38] [Server thread/INFO]: [Slimefun] Metrics build #28 started.
+[20:12:38] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[20:12:38] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[20:12:38] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[20:12:38] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[20:12:38] [Server thread/INFO]: [Slimefun] Found 1,093 Recipes!
+[20:12:38] [Server thread/INFO]: [m
+[20:12:38] [Server thread/INFO]: [0;32;1m######################### - Slimefun vDEV - 1048 (git 157fe449) - #########################[m
+[20:12:38] [Server thread/INFO]: [m
+[20:12:38] [Server thread/INFO]: [0;32;1mSuccessfully loaded 549 Items and 257 Researches[m
+[20:12:38] [Server thread/INFO]: [0;32;1m( 549 Items from Slimefun, 0 Items from 0 Addons )[m
+[20:12:38] [Server thread/INFO]: [m
+[20:12:38] [Server thread/INFO]: [0;32;1mSlimefun is an Open-Source project that is kept alive by a large community.[m
+[20:12:38] [Server thread/INFO]: [0;32;1mConsider helping us maintain this project by contributing on GitHub![m
+[20:12:38] [Server thread/INFO]: [m
+[20:12:38] [Server thread/INFO]: [0;32;1m - Source Code:  https://github.com/Slimefun/Slimefun4[m
+[20:12:38] [Server thread/INFO]: [0;32;1m - Wiki:         https://github.com/Slimefun/Slimefun4/wiki[m
+[20:12:38] [Server thread/INFO]: [0;32;1m - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons[m
+[20:12:38] [Server thread/INFO]: [0;32;1m - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues[m
+[20:12:38] [Server thread/INFO]: [0;32;1m - Discord:      https://discord.gg/slimefun[m
+[20:12:38] [Server thread/INFO]: [m
+[20:12:38] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
+[20:12:38] [Server thread/INFO]: [Slimefun] This may take a long time...
+[20:12:38] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[20:12:38] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world"
+[20:12:38] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
+[20:12:38] [Server thread/INFO]: [Slimefun] This may take a long time...
+[20:12:38] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[20:12:38] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
+[20:12:38] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
+[20:12:38] [Server thread/INFO]: [Slimefun] This may take a long time...
+[20:12:38] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 1ms)
+[20:12:38] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
+[20:12:38] [Server thread/INFO]: Loading Protection Modules...
+[20:12:38] [Server thread/INFO]: This may happen more than once.
+[20:12:38] [Server thread/WARN]: [Slimefun] Loaded class net.coreprotect.CoreProtect from CoreProtect v21.2 which is not a depend or softdepend of this plugin.
+[20:12:38] [Server thread/INFO]: Loaded Protection Module "CoreProtect"
+[20:12:38] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[20:12:38] [Server thread/WARN]: [MythicMobs] ?[31m[1m Configuration Error in Mechanic [36mCustomMechanic[0m[0m
+[20:12:38] [Server thread/WARN]: [MythicMobs] --| [31mSkill: [36mDarkElfPushBack[37m | [31mFile: [37mC:\Users\drale\Documents\Minecraft Servers\spigot-1.19.2\plugins\MythicMobs\Skills\DarkElfSkills.yml[0m[0m
+[20:12:38] [Server thread/WARN]: [MythicMobs] --| [35mError Message: [0mFailed to load custom mechanic EFFECT:PARTICLERINGPARTICLE=BLOCKCRACK;MATERIAL=NETHER_BRICKS;RADIUS=2;POINTS=15;AMOUNT=200;HS=1;VS=21[0m[0m
+[20:12:38] [Server thread/WARN]: [MythicMobs] --| [35mMechanic Line: [0meffect:particleringparticle=BLOCKCRACK;material=NETHER_BRICKS;radius=2;points=15;amount=200;hS=1;vS=21[0m[0m
+[20:12:38] [Craft Scheduler Thread - 2/INFO]: [Slimefun] Slimefun is already up to date!
+[20:12:38] [Thread-10/INFO]: [DeadChest] About to download a new update: DeadChest v4.14.0
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 0% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 10% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 10% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 20% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 20% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 30% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 40% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 50% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 60% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 70% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 80% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 90% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Downloading update: 100% of 122106 bytes.
+[20:12:38] [Thread-10/INFO]: [DeadChest] Finished updating.
+[20:12:39] [Thread-13/INFO]: --------------------
+[20:12:39] [Thread-13/INFO]: [CoreProtect] Version 21.3 is now available.
+[20:12:39] [Thread-13/INFO]: [CoreProtect] Download: www.coreprotect.net/download/
+[20:12:39] [Thread-13/INFO]: --------------------
+[20:13:02] [User Authenticator #1/INFO]: UUID of player 5xw is 45118bf1-56ff-416e-b0cc-26ddcd93325c
+[20:13:02] [Server thread/INFO]: 5xw joined the game
+[20:13:03] [Server thread/INFO]: 5xw[/127.0.0.1:59959] logged in with entity id 122 at ([world]-9.5, 64.0, 2.5)
+[20:13:03] [lumine-scheduler-0/ERROR]: [MythicMobs] [31m[SCHEDULER] Exception thrown whilst executing task[37m
+[20:13:03] [lumine-scheduler-0/WARN]: java.util.ConcurrentModificationException
+[20:13:03] [lumine-scheduler-0/WARN]: 	at java.base/java.util.HashMap.computeIfAbsent(Unknown Source)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at net.minecraft.world.scores.Scoreboard.c(SourceFile:79)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.scoreboard.CraftScore.setScore(CraftScore.java:59)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at io.lumine.mythic.core.skills.mechanics.ModifyMobScoreMechanic.cast(ModifyMobScoreMechanic.java:36)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at io.lumine.mythic.core.skills.SkillMechanic.executeNoTargetSkill(SkillMechanic.java:577)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at io.lumine.mythic.core.skills.SkillMechanic.lambda$executeSkills$7(SkillMechanic.java:522)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at io.lumine.mythic.core.skills.SkillMechanic.runMechanic(SkillMechanic.java:540)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at io.lumine.mythic.core.skills.SkillMechanic.executeSkills(SkillMechanic.java:522)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at io.lumine.mythic.core.skills.SkillMechanic.execute(SkillMechanic.java:418)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at io.lumine.mythic.core.mobs.MobType.lambda$executeSkills$6(MobType.java:1186)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[20:13:03] [lumine-scheduler-0/WARN]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[20:13:40] [Craft Scheduler Thread - 1/WARN]: [Slimefun] Attempted to refresh skin cache, got this response: TimeoutException: null
+[20:13:40] [Craft Scheduler Thread - 1/WARN]: [Slimefun] This usually means mojang.com is temporarily down or started to rate-limit this connection, nothing to worry about!
+[20:15:16] [Server thread/INFO]: 5xw lost connection: Disconnected
+[20:15:16] [Server thread/INFO]: 5xw left the game
